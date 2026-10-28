@@ -1,0 +1,26 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+dist/
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep source data local, but track per-dataset documentation and placeholders.
+data/raw/*/*
+!data/raw/*/DATASET.md
+!data/raw/*/.gitkeep
+!data/raw/*/source/
+data/raw/*/source/*
+
+# Generated artifacts and reports.
+backend/trained_models/*
+!backend/trained_models/.gitkeep
+!backend/trained_models/model_metadata.json
+reports/figures/*
+!reports/figures/.gitkeep
+!reports/figures/*.png

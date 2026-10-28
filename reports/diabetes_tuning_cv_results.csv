@@ -1,0 +1,9 @@
+candidate,params,mean_test_score,std_test_score,rank_test_score
+logistic_regression,"{'classifier__class_weight': 'balanced', 'classifier__C': 1.0}",0.20749968666881372,0.004648169184517038,2
+logistic_regression,"{'classifier__class_weight': 'balanced', 'classifier__C': 5.0}",0.20130781516412263,0.0043672071341462875,3
+logistic_regression,"{'classifier__class_weight': 'balanced', 'classifier__C': 0.1}",0.2152007648949338,0.004178382241892524,1
+logistic_regression,"{'classifier__class_weight': {0: 1.0, 1: 8.0}, 'classifier__C': 5.0}",0.19926244253336098,0.0044762960095354595,4
+xgboost,"{'classifier__subsample': 0.75, 'classifier__scale_pos_weight': 8.0, 'classifier__n_estimators': 160, 'classifier__max_depth': 3, 'classifier__learning_rate': 0.06, 'classifier__colsample_bytree': 0.7}",0.22186207271222705,0.0056026826515393705,1
+xgboost,"{'classifier__subsample': 0.75, 'classifier__scale_pos_weight': 8.0, 'classifier__n_estimators': 80, 'classifier__max_depth': 4, 'classifier__learning_rate': 0.1, 'classifier__colsample_bytree': 0.85}",0.220383097861343,0.005418292710252648,3
+xgboost,"{'classifier__subsample': 0.75, 'classifier__scale_pos_weight': 4.0, 'classifier__n_estimators': 80, 'classifier__max_depth': 4, 'classifier__learning_rate': 0.03, 'classifier__colsample_bytree': 0.85}",0.21756894765940213,0.0062925126566152415,4
+xgboost,"{'classifier__subsample': 0.9, 'classifier__scale_pos_weight': 12.0, 'classifier__n_estimators': 160, 'classifier__max_depth': 3, 'classifier__learning_rate': 0.06, 'classifier__colsample_bytree': 0.7}",0.22040258210265393,0.004211464741480435,2

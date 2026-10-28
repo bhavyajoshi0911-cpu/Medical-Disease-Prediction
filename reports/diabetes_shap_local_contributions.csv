@@ -1,0 +1,21 @@
+candidate,example_number,model_probability_readmitted_within_30d,output_scale,feature,encoded_value,contribution,direction
+logistic_regression,1,0.5906115580057384,log-odds,discharge_disposition_id_2,1.0,0.4021904151452091,toward <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,number_inpatient,-0.5032382720737496,-0.2000312309109835,away from <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,num_medications,3.9393318792009673,0.17695484474609766,toward <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,diag_1_414,1.0,0.16761175004800247,toward <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,payer_code___missing__,0.0,-0.08268917830221999,away from <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,discharge_disposition_id_1,0.0,0.0763628371873116,toward <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,medical_specialty_Radiologist,1.0,0.07529864374076221,toward <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,medical_specialty___missing__,0.0,-0.07384907205527155,away from <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,num_procedures,2.7403526681880863,-0.07143124679573827,away from <30 model output
+logistic_regression,1,0.5906115580057384,log-odds,age_[60-70),1.0,0.06554801844641872,toward <30 model output
+xgboost,1,0.5306186676025391,raw margin,number_inpatient,-0.5032382720737496,-0.23679722845554352,away from <30 model output
+xgboost,1,0.5306186676025391,raw margin,discharge_disposition_id_1,0.0,0.18131104111671448,toward <30 model output
+xgboost,1,0.5306186676025391,raw margin,discharge_disposition_id_2,1.0,0.0854044109582901,toward <30 model output
+xgboost,1,0.5306186676025391,raw margin,number_diagnoses,0.8177977015754383,0.050320085138082504,toward <30 model output
+xgboost,1,0.5306186676025391,raw margin,payer_code___missing__,0.0,-0.03744407743215561,away from <30 model output
+xgboost,1,0.5306186676025391,raw margin,discharge_disposition_id_22,0.0,-0.03372713923454285,away from <30 model output
+xgboost,1,0.5306186676025391,raw margin,discharge_disposition_id_11,0.0,0.023886417970061302,toward <30 model output
+xgboost,1,0.5306186676025391,raw margin,admission_type_id_3,1.0,0.018668804317712784,toward <30 model output
+xgboost,1,0.5306186676025391,raw margin,diabetesMed_No,0.0,0.018101397901773453,toward <30 model output
+xgboost,1,0.5306186676025391,raw margin,insulin_No,0.0,0.01723121479153633,toward <30 model output
